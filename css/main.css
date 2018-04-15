@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+ }
+
+ header {
+ 	text-align:center;
+ 	padding-top:5%;
+ 	padding-bottom:5%;
+ 	font-size:3em;
+ }
+
+    /* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+#map {
+	margin:auto;
+	margin: 10%;
+	margin-top: 0%;
+    height: 50%;
+}
+
+#dataContainerOrientation, #dataContainerMotion{
+	padding-right:10%;
+	text-align:right;
+}
